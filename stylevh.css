@@ -1,0 +1,147 @@
+/*seletor*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* partes da pagina*/
+
+body{
+    background: white url(fundo.png) repeat-x;
+}
+
+header{
+    background: url(detalhe-topo.png) no-repeat right;
+    height: 200px;
+}
+
+
+#headerEmain{
+    width: 800px;
+    margin: auto;
+}
+
+
+footer{
+    clear: both;
+    background-color: darkslateblue;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+
+
+/*botoes*/
+
+#navegacao a {
+    background-color: #b10333;
+    color: white;
+    padding: 2%;
+    float: left;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#navegacao a:hover{
+    color: rgb(92, 10, 10);
+    background-color: #e20241;
+}
+
+
+/*conteudo principal*/
+
+#primario{
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#secundario{
+    width: 270px;
+    float: left;
+}
+
+.caixa0{
+    background: url(fundo-caixa.png);
+    width: 250px;
+}
+
+.caixa1{
+    background-color: whitesmoke;
+    width: 245px;
+}
+
+.titulo{
+    background-color: #e20241;
+    color: whitesmoke;
+    font-size: small;
+}
+
+.titulo0{
+    background-color: darkslateblue;
+    color: whitesmoke;
+}
+
+.imagem {
+    float: left; 
+    margin-right: 20px; 
+}
+.texto {
+    overflow: hidden; 
+}
+
+.titulo2{
+    color: darkslateblue;
+    font-size: medium;
+}
+
+
+.texto0{
+    color: black;
+    font-size: small;
+}
+
+.semdec a {
+    text-decoration: none;
+}
+
+
+
+#lateral{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+.caixa00{
+    background: url(fundo-caixa.png);
+}
+
+.caixa01{
+    background-color: whitesmoke;
+}
+
+#botao input{
+    background-color: #b10333;
+    color: white;
+    padding: 1%;
+    margin-top: 20px;
+
+}
+
+/*ajustes para as paginas*/
+
+#duas-colunas #primario{
+    width: 555px;
+}
+
+.caixa000{
+    background: url(fundo-caixa.png);
+    padding-right: 5px;
+}
+
+#centralizacao0{
+    margin-left: 50px;
+}
